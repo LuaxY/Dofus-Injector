@@ -11,8 +11,6 @@ package
 
 	public class Main extends Sprite
 	{
-		public var t:ByteString;
-		
 		public function Main()
 		{
 			Console.getInstance().display();
