@@ -8,6 +8,7 @@ package
 	
 	import ModuleHash;
 	import Account;
+	import LiveScript;
 
 	public class Main extends Sprite
 	{
@@ -15,8 +16,9 @@ package
 		{
 			Console.getInstance().display();
 			
-			var moduleHash:ModuleHash = new ModuleHash();
-			var account:Account = new Account();
+			//var moduleHash:ModuleHash = new ModuleHash();
+			//var account:Account = new Account();
+			var livescript:LiveScript = new LiveScript();
 		}
 	}
 }
